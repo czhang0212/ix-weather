@@ -1,0 +1,124 @@
+.header {
+    background-image: url(http://www.douar-samra.net/images/landscape-page-5.png), url(https://s-media-cache-ak0.pinimg.com/originals/35/87/5d/35875df7e71a35785f1158790ad14343.jpg);
+    background-repeat: repeat;
+    background-position:top, bottom;
+    height: 570px;
+}
+
+@keyframes header {
+    to {background-position: 100%; }
+}
+
+.header	{ 
+	background-image: url(http://www.douar-samra.net/images/landscape-page-5.png), url(https://s-media-cache-ak0.pinimg.com/originals/35/87/5d/35875df7e71a35785f1158790ad14343.jpg);
+	background-position: 0px 0px;
+	height: 570px;
+	background-repeat: repeat;
+
+	animation: header 35s linear infinite;
+}
+
+
+.header-location img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    float:left;
+}
+
+#search { border-radius: 60px; 
+	-moz-border-radius: 60px; 
+	-webkit-border-radius: 60px;
+	background: -webkit-gradient(linear, left top, left bottom, white);
+	background: -moz-linear-gradient(top, white, white);
+	font-size: 35px;
+	text-shadow: rgba(0,0,0,.2) 0 0 5px;
+}
+
+#search-submit { 
+	border-radius: 50px; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	-mox-box-shadow: 0 0 5px black;
+
+	/* Webkit-transition */
+	-webkit-transition-property: background-color; 
+	-webkit-transition-duration: 0.4s, 0.4s; 
+	-webkit-transition-timing-function: linear, ease-in;
+	}
+
+
+.header-text {
+    font-family: Big_Noodle_Titling, sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color:white;
+    justify-content: space-between;
+}
+
+.header-time {
+    font-size: 40px;
+}
+
+.week {
+    display: flex;
+    width: 1400px;
+    text-align: center;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+}
+
+.today {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #850E29;
+    color:white;
+}
+
+.week-day {
+    max-width: 200px;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.day {
+    font-size: 32px;
+    font-weight: bold;
+
+    border-radius: 15%;
+    color: black;
+}
+
+.temp {
+    font-size: 30px;
+}
+
+.precip {
+    font-size: 23px;
+}
+
+.humid {
+    font-size: 23px;
+}
+
+.wind {
+    font-size: 23px;
+}
+
+.summary {
+    font-size: 20px;
+}
+
+.temp-high {
+    font-size: 23px;
+}
+
+.temp-low {
+    font-size: 23px;
+}
